@@ -1,0 +1,103 @@
+--- !ruby/object:Library
+books:
+- !ruby/object:Book
+  title: Pismo to the woman
+  author: Sergiy Esenin
+- !ruby/object:Book
+  title: Black man
+  author: Sergiy Esenin
+- !ruby/object:Book
+  title: Poems
+  author: Sergiy Esenin
+- !ruby/object:Book
+  title: Master and Margarita
+  author: Mihail Bulgakov
+- !ruby/object:Book
+  title: A young doctor's notebook
+  author: Mihail Bulgakov
+- !ruby/object:Book
+  title: Heart of a dog
+  author: Mihail Bulgakov
+- !ruby/object:Book
+  title: War and peace
+  author: Leo Tolstoy
+- !ruby/object:Book
+  title: Tales For Children
+  author: Leo Tolstoy
+- !ruby/object:Book
+  title: Prisoner of the Caucasus
+  author: Leo Tolstoy
+orders:
+- !ruby/object:Order
+  book: Master and Margarita
+  reader: Andriy Petrov
+  date: 10-7-2016
+- !ruby/object:Order
+  book: Heart of a dog
+  reader: Andriy Petrov
+  date: 15-7-2016
+- !ruby/object:Order
+  book: Tales For Children
+  reader: Andriy Petrov
+  date: 25-7-2016
+- !ruby/object:Order
+  book: Prisoner of the Caucasus
+  reader: Andriy Petrov
+  date: 20-7-2016
+- !ruby/object:Order
+  book: Master and Margarita
+  reader: Anton Sidorov
+  date: 1-7-2016
+- !ruby/object:Order
+  book: Master and Margarita
+  reader: Ivan Svetlov
+  date: 4-7-2016
+- !ruby/object:Order
+  book: Master and Margarita
+  reader: Pier Bezuhov
+  date: 9-7-2016
+- !ruby/object:Order
+  book: Master and Margarita
+  reader: Andriy Petrov
+  date: 10-8-2016
+readers:
+- !ruby/object:Reader
+  name: Andriy Petrov
+  email: drucon@mail.ru
+  city: Dnipro
+  street: Tomskya
+  house: '1446'
+- !ruby/object:Reader
+  name: Anton Sidorov
+  email: drug@mail.ru
+  city: Dnipro
+  street: Tomskya
+  house: '1174'
+- !ruby/object:Reader
+  name: Mihail Kulicov
+  email: dreem@mail.ru
+  city: Dnipro
+  street: Tomskya
+  house: '124'
+- !ruby/object:Reader
+  name: Ivan Svetlov
+  email: port@mail.ru
+  city: Dnipro
+  street: Tomskya
+  house: '456'
+- !ruby/object:Reader
+  name: Pier Bezuhov
+  email: miurn@mail.ru
+  city: Dnipro
+  street: Tomskya
+  house: '111'
+authors:
+- !ruby/object:Author
+  name: Leo Tolstoy
+  biography: The great Russian writer of the 19th century
+- !ruby/object:Author
+  name: Mihail Bulgakov
+  biography: Russian writer, playwright, theater Director and actor
+- !ruby/object:Author
+  name: Sergiy Esenin
+  biography: Sergey Yesenin (1895-1925), Russian poet.
